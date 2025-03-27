@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="mi-pagina">
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#css">CSS</a></li> <!-- Enlace a la sección CSS -->
+            <li><a href="#javascript">JavaScript</a></li> <!-- Enlace a la sección JavaScript -->
+            <li><a href="#tabla-css">Tabla de atributos CSS</a></li> <!-- Enlace a la sección de tabla CSS (no implementada) -->
+        </ul>
+    </nav>
+
+    <!-- Sección de CSS -->
+    <section id="css">
+        <h2>CSS</h2>
+        <p>
+            El CSS podría definirse como un tipo de lenguaje que permite definir y crear la presentación visual
+            de un documento ya estructurado y escrito en un lenguaje de marcado como puede ser HTML.
+        </p>
+        <p>
+            CSS es necesario en el diseño web y la programación frontend para crear experiencias web dinámicas y atractivas.
+            Por ejemplo, CSS ofrece herramientas para aplicar transformaciones y animaciones a elementos.
+        </p>
+        <!-- Enlace a la documentación de CSS con una imagen como botón -->
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+            <img src="imagenes/css.png" alt="logo">
+        </a>
+    </section>
+
+    <!-- Sección de JavaScript -->
+    <section id="javascript">
+        <h2>JavaScript</h2>
+        <p>
+            JavaScript es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica,
+            controlar multimedia, animar imágenes y prácticamente todo lo demás.
+        </p>
+        <!-- Enlace a la documentación de JavaScript con una imagen como botón -->
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+            <img src="imagenes/java.jpg" alt="Logo de JavaScript">
+        </a>
+    </section>
+      <!-- Sección de Tabla de Atributos CSS -->
+    <section id="tabla-css">
+        <h2>Tabla de Atributos CSS</h2>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descripción</th>
+                <th>Valores posibles</th>
+                <th>Ejemplo</th>
+                <th>Imagen</th>
+                <th>Fuente</th>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>Define el tamaño de la fuente.</td>
+                <td>px, em, rem, %</td>
+                <td>font-size: 16px;</td>
+                <td><img src="imagenes/font-size.jpg" alt="Ejemplo font-size"></td>
+                <td><a href="https://www.htmlhelp.com/es/reference/css/font/font-size.html" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>border-radius</td>
+                <td>Define el radio de las esquinas de un elemento.</td>
+                <td>px, %</td>
+                <td>border-radius: 10px;</td>
+                <td><img src="imagenes/border-radius.png" alt="Ejemplo border-radius"></td>
+                <td><a href="https://lenguajecss.com/css/bordes/border-radius/" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>display</td>
+                <td>Define el tipo de visualización de un elemento.</td>
+                <td>block, inline, flex, grid</td>
+                <td>display: flex;</td>
+                <td><img src="imagenes/display.png" alt="Ejemplo display"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/display" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>flexbox (display: flex;)</td>
+                <td>Permite organizar elementos en un contenedor flexible.</td>
+                <td>flex, inline-flex</td>
+                <td>display: flex;</td>
+                <td><img src="imagenes/flexbox.png" alt="Ejemplo flexbox"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/flexbox" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>position</td>
+                <td>Define la posición de un elemento en la página.</td>
+                <td>static, relative, absolute, fixed, sticky</td>
+                <td>position: absolute;</td>
+                <td><img src="imagenes/position.png" alt="Ejemplo position"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/position" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>box-shadow</td>
+                <td>Agrega una sombra alrededor de un elemento.</td>
+                <td>Valores de desplazamiento, difuminado, color</td>
+                <td>box-shadow: 5px 5px 10px gray;</td>
+                <td><img src="imagenes/box-shadow.png" alt="Ejemplo box-shadow"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>overflow</td>
+                <td>Controla el comportamiento del contenido que desborda su contenedor.</td>
+                <td>visible, hidden, scroll, auto</td>
+                <td>overflow: hidden;</td>
+                <td><img src="imagenes/overflow.png" alt="Ejemplo overflow"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>z-index</td>
+                <td>Define el orden de apilamiento de los elementos.</td>
+                <td>Número entero</td>
+                <td>z-index: 10;</td>
+                <td><img src="imagenes/z-index.png" alt="Ejemplo z-index"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index" target="_blank">Para mas informacion</a></td>
+            </tr>
+
+            <tr>
+                <td>opacity</td>
+                <td>Define la transparencia de un elemento.</td>
+                <td>Valores entre 0 y 1</td>
+                <td>opacity: 0.5;</td>
+                <td><img src="imagenes/opacity.png" alt="Ejemplo opacity"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/opacity" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>Define el espacio exterior alrededor de un elemento.</td>
+                <td>px, %, auto</td>
+                <td>margin: 20px;</td>
+                <td><img src="imagenes/margin.png" alt="Ejemplo margin"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/margin" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>Define el espacio interior dentro de un elemento.</td>
+                <td>px, %, auto</td>
+                <td>padding: 15px;</td>
+                <td><img src="imagenes/padding.png" alt="Ejemplo padding"></td>
+                <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/padding" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>Define el color de fondo de un elemento.</td>
+                <td>Nombre de color, código hexadecimal, rgb</td>
+                <td>background-color: blue;</td>
+                <td><img src="imagenes/background-color.png" alt="Ejemplo background-color"></td>
+                <td><a href="https://www.htmlhelp.com/es/reference/css/color-background/" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Define la alineación del texto dentro de un elemento.</td>
+                <td>left, center, right, justify</td>
+                <td>text-align: center;</td>
+                <td><img src="imagenes/text-align.png" alt="Ejemplo text-align"></td>
+                <td><a href="https://www.mclibre.org/consultar/htmlcss/css/css-texto.html" target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>Define el ancho de un elemento.</td>
+                <td>px, %, auto</td>
+                <td>width: 100px;</td>
+                <td><img src="imagenes/width.png" alt="Ejemplo width"></td>
+                <td><a href="https://platzi.com/tutoriales/2467-frontend-developer/24799-propiedades-y-tamanos-con-css/#:~:text=width%20%3A%20Esta%20etiqueta%20define%20el,in%20%2C%20pt%20%2C%20pc%20)." target="_blank">Para mas informacion</a></td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td>Define la altura de un elemento.</td>
+                <td>px, %, auto</td>
+                <td>height: 50px;</td>
+                <td><img src="imagenes/height.png" alt="Ejemplo height"></td>
+                <td><a href="https://platzi.com/tutoriales/2467-frontend-developer/24799-propiedades-y-tamanos-con-css/" target="_blank">Para mas informacion</a></td>
+            </tr>
+        </table>
+
+   <!-- Agrego los derechos  -->     
+    </section>
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados.</p>
+        <p>Desarrollado por BRAYAN FELIPE MOYA</p>
+
+    </footer>
+    
+
+</body>
+</html>
